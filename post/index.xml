@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Msinwolc</title>
-    <link>http://example.org/post/</link>
+    <link>http://msinwolc.github.io/post/</link>
     <description>Recent content in Posts on Msinwolc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 20 Jun 2023 16:08:14 +0800</lastBuildDate><atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 16:08:14 +0800</lastBuildDate><atom:link href="http://msinwolc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debian重启ssh</title>
-      <link>http://example.org/post/debian%E9%87%8D%E5%90%AFssh/</link>
+      <link>http://msinwolc.github.io/post/debian%E9%87%8D%E5%90%AFssh/</link>
       <pubDate>Tue, 20 Jun 2023 16:08:14 +0800</pubDate>
       
-      <guid>http://example.org/post/debian%E9%87%8D%E5%90%AFssh/</guid>
+      <guid>http://msinwolc.github.io/post/debian%E9%87%8D%E5%90%AFssh/</guid>
       <description>Debian重启ssh命令:
 sudo /etc/init.d/ssh restart 在新版wsl已支持systemd，可以通过systemd来查看和启动，要开启systemd支持，需要修改wsl配置文件，在wsl中执行
 vi /etc/wsl.conf 将以下内容粘贴到末尾
