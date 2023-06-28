@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Msinwolc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Jun 2023 14:41:33 +0800</lastBuildDate><atom:link href="https://msinwolc.github.io/saysth/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 14:49:03 +0800</lastBuildDate><atom:link href="https://msinwolc.github.io/saysth/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>发布blog流程</title>
+      <link>https://msinwolc.github.io/saysth/post/%E5%8F%91%E5%B8%83blog%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Wed, 28 Jun 2023 14:49:03 +0800</pubDate>
+      
+      <guid>https://msinwolc.github.io/saysth/post/%E5%8F%91%E5%B8%83blog%E6%B5%81%E7%A8%8B/</guid>
+      <description>hugo新建post并推送到GitHub page的流程（怕忘了，history也看不到） hugo项目的根目录执行
+hugo new post/Debian重启ssh.md 会在content/post目录下新建对应md文件，编辑完后，执行
+hugo --theme=hugo-book --baseURL=&amp;#34;https://msinwolc.github.io/saysth&amp;#34; 生成对应静态资源，然后进入public目录
+cd public git add . git commit -m &amp;#39;first commit&amp;#39; git pull git push 如果要在左边加入导航栏，有一点点麻烦，首先得开启这个功能，然而网上的教程都是旧的，最新版的hugo自动生成的配置文件不叫config.toml，而是hugo.toml，里面只有很简单的三行，需要加上以下部分
+[params] BookMenuBundle = &amp;#39;/menu&amp;#39; 然后在content目录新建menu目录，新建index.md，内容如下
++++ headless = true +++ - [Linux](/saysth/post/) - [Debian重启ssh](/saysth/post/debian%E9%87%8D%E5%90%AFssh/) 再执行生成静态资源往后的步骤，部署成功后即可看到导航栏</description>
+    </item>
+    
     <item>
       <title>测试注释</title>
       <link>https://msinwolc.github.io/saysth/post/%E6%B5%8B%E8%AF%95%E6%B3%A8%E9%87%8A/</link>
